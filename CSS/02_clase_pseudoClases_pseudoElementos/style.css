@@ -1,0 +1,32 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Pseudo Clases */
+/* hover -- al poner el mouse encima */
+.main-nav__item a:hover {
+    color: black;
+}
+/* active -- al dar click */
+.main-nav__item a:active {
+    color: red;
+}
+
+/* Pseudo Elementos */
+/* after -- agrega lo del content leugo del elemento */
+.main-nav__item a::after {
+    content: " | ";
+}
